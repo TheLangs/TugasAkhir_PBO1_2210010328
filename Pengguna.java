@@ -1,7 +1,7 @@
 public class Pengguna {
     int id;
-    String username;
-    String password;
+    private String username;
+    private String password;
 
     public Pengguna(){
         System.out.println("Object telah diciptakan, contructor berjalan\n");
@@ -42,7 +42,7 @@ public class Pengguna {
     public void hapus(String username){
     System.out.println("DELETE FROM pengguna WHERE username = "+username+";\n");
     }
-    
+
     public void login(){
     System.out.println("Ini method untuk Login");
     }
