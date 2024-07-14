@@ -39,12 +39,20 @@ public class Pengguna {
     System.out.println("DELETE FROM pengguna\n");
     }
 
+    public void hapus(int id){
+    System.out.println("DELETE FROM pengguna WHERE username = "+id+";\n");
+    }
+    
     public void hapus(String username){
     System.out.println("DELETE FROM pengguna WHERE username = "+username+";\n");
     }
 
     public void login(){
     System.out.println("Ini method untuk Login");
+    }
+    
+    public void login(String tokenGoogle) {
+    System.out.println("Ini Login menggunakan Google");
     }
     
     public void lupaPassword(){
