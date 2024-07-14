@@ -65,7 +65,7 @@ public class Buku {
         harga += 4000;
     }
 
-    public void naikkanHarga(Double kenaikan){
+    public void naikkanHarga(double kenaikan){
         harga += kenaikan;
     }
 }
